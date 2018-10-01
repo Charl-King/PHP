@@ -1,0 +1,77 @@
+.box{
+	border-radius: 10px;
+	background: #909090;
+	box-shadow: 10px 10px 10px;
+	margin-left: 2%;
+	margin-top: 1%;
+	float: left;
+}
+
+.icon{
+	padding: 1vh;
+	width: 6.5vh;
+	height: 6.5vh;
+	display:  block;
+	margin: auto;
+}
+
+.brick{
+	padding: 1vh;
+	width: 10vh;
+	height: 4vh;
+	display:  block;
+	margin: auto;
+	background-repeat: repeat;
+	background-image: url("./resources/brick.jpg");
+}
+
+.clear {
+	clear: both;
+	height: 0;
+	width: 0;
+	font-size: 1px;
+	line-height: 0;
+  }
+
+#topbar {
+	
+	width: 70%;
+	height: 1%;
+	margin:auto;
+	margin-left: 15%;
+	margin-right: 15%;
+	align-content: flex-start;
+}
+
+#left{
+	padding: 10px;
+	width: 10%;
+	height: 45vh;
+	margin-left: 17%;
+	align-content: flex-start;
+}
+
+#central{
+	width: 38%;
+	height: 55vh;
+}
+
+#right{
+	padding: 10px;
+	width: 10%;
+	height: 45vh;
+}
+
+.topimage{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	padding: 2%;
+}
+
+.centreimage{
+	width: 96%;
+	height: auto;
+	max-height: 55vh;
+	padding: 2%;
+}
