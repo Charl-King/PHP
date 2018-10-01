@@ -79,8 +79,15 @@ ital{
 	font-size: 1em;
 }
 
+textshadow{
+	text-shadow:0.2em 0.2em 0.2em red;
+	font-size: 1em;
+}
+
 #textbox{
 	border-style: inset;
+	box-shadow: 0em 0em 0.1em;
+	width: 72%;
 }
 
 .topimage{
@@ -92,20 +99,20 @@ ital{
 
 .close{
 	position: relative;
-	left: -1vw;
+	left: -1.5vw;
 	bottom: -9vh;
 	float: right;
-	width: 2vw;
-	height: 2vh;
+	width: 2vmin;
+	height: 2vmin;
 }
 
 .reload{
 	position: relative;
-	left: 1vw;
+	left: -0.5vw;
 	bottom: -1vh;
 	float: right;
-	width: 2vw;
-	height: 2vh;
+	width: 2vmin;
+	height: 2vmin;
 }
 
 .maglass{
@@ -117,8 +124,8 @@ ital{
 }
 
 .centreimage{
-	width: 96%;
-	height: auto;
+	width: 95%;
+	height: 95%;
 	max-height: 55vmax;
 	padding: 2%;
 }
@@ -126,10 +133,10 @@ ital{
 .searchbox{
 	background: rgb(136,255,137);
 	position: relative;
-	padding: 2vh;
+	padding: 4vh;
 	float: left;
-	width: 35vmax;
-	height: 15vmax;
+	width: 38vmax;
+	height: 13vmax;
 	border-radius: 10px;
 	box-shadow: 10px 10px 10px;
 	left: 12vw;
