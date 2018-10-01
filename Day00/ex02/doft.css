@@ -1,3 +1,7 @@
+body{
+	background-color: #505050; 
+}
+
 .box{
 	border-radius: 10px;
 	background: #909090;
@@ -15,6 +19,12 @@
 	margin: auto;
 }
 
+#oeil{
+	padding : 0.2vh;
+	border-radius: 10px;
+	border: 0.2vw solid red;
+}
+
 .brick{
 	padding: 1vh;
 	width: 10vh;
@@ -24,14 +34,6 @@
 	background-repeat: repeat;
 	background-image: url("./resources/brick.jpg");
 }
-
-.clear {
-	clear: both;
-	height: 0;
-	width: 0;
-	font-size: 1px;
-	line-height: 0;
-  }
 
 #topbar {
 	
@@ -63,10 +65,36 @@
 }
 
 .topimage{
-	width: auto;
-	height: auto;
+	width: 25vw;
+	height: 10vh;
 	max-width: 100%;
-	padding: 2%;
+	padding: 1%;
+}
+
+.close{
+	position: relative;
+	left: -1vw;
+	bottom: -9vh;
+	float: right;
+	width: 2vw;
+	height: 2vh;
+}
+
+.reload{
+	position: relative;
+	left: 1vw;
+	bottom: -1vh;
+	float: right;
+	width: 2vw;
+	height: 2vh;
+}
+
+.maglass{
+	position: relative;
+	width: 13vw;
+	height: 13vh;
+	left: 22vw;
+	bottom: -3.5vh;
 }
 
 .centreimage{
@@ -74,4 +102,16 @@
 	height: auto;
 	max-height: 55vh;
 	padding: 2%;
+}
+
+.searchbox{
+	margin : auto;
+	background: rgb(136,255,137);
+	position: relative;
+	width: 35vw;
+	height: 15vh;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px;
+	left: 12vw;
+	top: 63vh;
 }
