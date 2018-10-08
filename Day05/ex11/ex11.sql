@@ -1,7 +1,7 @@
 SELECT
     UPPER(user_card.last_name) AS "NAME",
     user_card.first_name,
-    subcription.price
+    subscription.price
 FROM
     member
 INNER JOIN subscription ON subscription.id_sub = member.id_sub
