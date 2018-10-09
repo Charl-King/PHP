@@ -1,4 +1,4 @@
-INSERT INTO ft_table(login, creation_date, `group`)
+INSERT INTO db_cking.ft_table(login, creation_date, `group`)
 SELECT
     last_name,
     birthdate,

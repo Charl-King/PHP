@@ -1,5 +1,5 @@
 UPDATE
-    ft_table
+    db_cking.ft_table
 SET
     creation_date = DATE_ADD(
         creation_date,

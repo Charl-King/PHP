@@ -1,5 +1,5 @@
 DELETE
 FROM
-    ft_table
+    db_cking.ft_table
 WHERE
     id < 6;

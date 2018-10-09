@@ -5,7 +5,7 @@ SELECT
 FROM
     member
 INNER JOIN subscription ON subscription.id_sub = member.id_sub
-INNER JOIN user_card ON user_card.id_user = member.id_user_card
+INNER JOIN user_card ON user_card.id_user = member.id_member
 WHERE
     subscription.price > 42
 ORDER BY
