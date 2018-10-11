@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <script>
+window.onload = function()
+{
+  setInterval(function() { alert("Please use me..."); }, 30 * 1000);
+
+  document.getElementById("form").onsubmit = function(form)
+  {
+    var x = document.getElementById("x").value;
+    var y = document.getElementById("y").value;
+    var op = document.getElementById("op").value;
+
+    if (!isValidNumber(x) || !isValidNumber(y))
+      alert("Error :(");
+
+    else{
+        x = parseInt(x);
+        y = parseInt(y);
+
+        if (op == "+")
+            alert(x + y);
+        else if (op == "-")
+            alert(x - y);
+        else if (op == "*")
+            alert(x * y);
+        else if (op == "/")
+            alert(y == 0 ? "It's over 9000!" : x / y);
+        else if (op == "%")
+            alert(y == 0 ? "It's over 9000!" : x % y);
+        else
+            alert("Error :(");
+    }
+  }
+}
+
+function isValidNumber(n) {
+  return isFinite(n) && parseInt(n) >= 0;
+}
+    </script>
+  </head>
+  <body>
+    <form id="form">
+      <input id="x" name="x" type="text">
+      <select id="op" name="op">
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+        <option>%</option>
+      </select>
+      <input id="y" name="y" type="text">
+      <input name="submit" type="submit" value="Try me!">
+    </form>
+  </body>
+</html>

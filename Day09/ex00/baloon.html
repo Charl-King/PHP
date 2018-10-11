@@ -7,6 +7,9 @@
 				background : red;
 				width: 200px;
 				height: 200px;
+				position: absolute;
+				top: 11%;
+				left: 11%;
 			}
 		</style>
 	</head>
@@ -36,7 +39,7 @@
 				circle.style.background = "green";
 		
 			circle.style.width = circle.style.height;
-		}
+		}//
 		
 		function circle_shrink(){
 		
@@ -48,13 +51,13 @@
 				circle.style.height = (circle.clientHeight - 5) + "px";
 		
 			if (circle.style.background == "green")
-				circle.style.background = "blue";
-			else if (circle.style.background == "blue")
 				circle.style.background = "red";
-			else
+			else if (circle.style.background == "blue")
 				circle.style.background = "green";
+			else
+				circle.style.background = "blue";
 		
 			circle.style.width = circle.style.height;
-		}
+		}//
 		</script>
 </html>
